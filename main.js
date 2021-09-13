@@ -7,3 +7,11 @@ newDestination.id = 'oaxaca';
 newDestination.innerHTML = 'Oaxaca, Mexico';
 //Append element
 document.getElementById('more-destinations').appendChild(newDestination);
+
+//Remove element
+/*
+const parent = document.querySelector("#more-destinations");
+const child = document.querySelector("#oaxaca");
+
+parent.removeChild(child);
+*/
